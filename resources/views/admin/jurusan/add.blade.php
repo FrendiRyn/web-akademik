@@ -25,7 +25,7 @@
                             <div class="field item form-group">
                                 <label class="col-form-label col-md-3 col-sm-3 label-align" for="kode_jurusan">Kode Prodi<span class="required">*</span></label>
                                 <div class="col-md-6 col-sm-6">
-                                    <input class="form-control @error('kode_jurusan') is-invalid @enderror" type="text" name="kode_jurusan" id="kode_jurusan" placeholder="Kode Jurusan" value="{{ old('kode_jurusan') }}" required="required" />
+                                    <input class="form-control @error('kode_jurusan') is-invalid @enderror" type="text" name="kode_jurusan" id="kode_jurusan" placeholder="Kode Prodi" value="{{ old('kode_jurusan') }}" required="required" />
                                     @error('kode_jurusan')
                                         <span class="badge badge-warning">{{ $message }}</span>
                                     @enderror
@@ -48,7 +48,7 @@
                             <div class="field item form-group">
                                 <label class="col-form-label col-md-3 col-sm-3 label-align" for="nama_jurusan">Nama Prodi<span class="required">*</span></label>
                                 <div class="col-md-6 col-sm-6">
-                                    <input class="form-control @error('nama_jurusan') is-invalid @enderror" type="text" name="nama_jurusan" id="nama_jurusan" placeholder="Nama Jurusan" value="{{ old('nama_jurusan') }}" required="required" />
+                                    <input class="form-control @error('nama_jurusan') is-invalid @enderror" type="text" name="nama_jurusan" id="nama_jurusan" placeholder="Nama Prodi" value="{{ old('nama_jurusan') }}" required="required" />
                                     @error('nama_jurusan')
                                         <span class="badge badge-warning">{{ $message }}</span>
                                     @enderror
